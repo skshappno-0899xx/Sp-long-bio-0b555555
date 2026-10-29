@@ -28,7 +28,7 @@ app = Flask(__name__)
 # ============================================================
 
 FREEFIRE_UPDATE_URL = "https://clientbp.ppmainecoonghj.com/UpdateSocialBasicInfo"
-TOKEN_API_URL = "https://http://jwtt-eta.vercel.app/token"
+TOKEN_API_URL = "http://jwtt-eta.vercel.app/token"
 
 FREEFIRE_VERSION = os.environ.get("FREEFIRE_VERSION", "OB55")
 
